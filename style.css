@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: -8px;
+}
+
+.headerAndHero {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    font-size: 24PX;
+    color: #F9FaF8;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    gap: 15px;   
+}
+
+.heroPart {
+    background-color: #1F2937;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-right: auto;
+}
+
+.heroTitle {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.heroText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.right-part {
+    display: flex;
+    width: 400px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.infoNaslov {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.squares {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border-color: #3882F6;    
+}
