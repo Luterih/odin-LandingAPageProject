@@ -61,12 +61,14 @@ a {
     color: #E5E7EB;
 }
 
-.heroPart button {
+button {
     background-color: #3882F6;
     width: 100px;
     border-radius: 5px;
     border-color: #3882F6;
     color: #E5E7EB;
+    border-style: solid;
+    padding: 2px;
 }
 
 .right-part {
@@ -106,7 +108,8 @@ a {
     width: 100px;
     height: 100px;
     border-radius: 5px;
-    border-color: #6ba4ff;    
+    border-color: #6ba4ff; 
+    background-color: white;   
 }
 
 .squares p {
@@ -156,7 +159,11 @@ a {
     display: flex;
     flex-direction: column;
     margin: 50px;
-    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 50px 250px;
+    padding: 10px;
+    color: #E5E7EB;
 }
 
 .actionColum {
@@ -165,11 +172,34 @@ a {
     background-color: #3882F6;
 }
 
+.p1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
 .actionRow {
     display: flex;
     align-items: center;
 }
 
+.p2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .actionRow button {
     margin-left: auto;
+    border-color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+
+    
 }
