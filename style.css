@@ -7,16 +7,17 @@ body {
 .headerAndHero {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    padding-bottom: 100px;
 }
 
 .header {
-    background-color: #1F2937;
     font-size: 24PX;
     color: #F9FaF8;
     display: flex;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 ul {
@@ -38,8 +39,8 @@ a {
 .heroPart {
     background-color: #1F2937;
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
 
 }
 
@@ -60,7 +61,7 @@ a {
     color: #E5E7EB;
 }
 
-button {
+.heroPart button {
     background-color: #3882F6;
     width: 100px;
     border-radius: 5px;
@@ -87,12 +88,88 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
 .squares {
     display: flex;
+    justify-content: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    gap: 20px;
+    
+}
+
+.squares button{
+    display: flex;
     width: 100px;
     height: 100px;
     border-radius: 5px;
-    border-color: #3882F6;    
+    border-color: #6ba4ff;    
+}
+
+.squares p {
+    width: 100px;
+    height: 100px;
+}
+
+.sq1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sq2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sq3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sq4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+}
+
+.callToAction {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: center;
+}
+
+.actionColum {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+}
+
+.actionRow {
+    display: flex;
+    align-items: center;
+}
+
+.actionRow button {
+    margin-left: auto;
 }
