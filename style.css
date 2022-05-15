@@ -52,12 +52,15 @@ a {
 }
 
 .heroTitle {
-    font-size: 24px;
+    font-size: 48px;
+    font-weight: 800;
     color: #F9FAF8;
+    margin: 10px;
 }
 
 .heroText {
     font-size: 18px;
+    margin: 10px;
     color: #E5E7EB;
 }
 
@@ -69,6 +72,7 @@ button {
     color: #E5E7EB;
     border-style: solid;
     padding: 2px;
+    margin: 10px;
 }
 
 .right-part {
@@ -103,6 +107,14 @@ button {
     
 }
 
+.squares img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px; 
+}
+
+/*
 .squares button{
     display: flex;
     width: 100px;
@@ -111,10 +123,12 @@ button {
     border-color: #6ba4ff; 
     background-color: white;   
 }
+*/
 
 .squares p {
     width: 100px;
     height: 100px;
+    margin: 10px;
 }
 
 .sq1 {
